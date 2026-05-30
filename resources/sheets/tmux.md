@@ -10,7 +10,7 @@ Terminal multiplexer. The prefix is `Ctrl+B` by default; everything below assume
 
 ## Sessions
 
-::: entries
+:::entries
 tmux                  >>  Start a new session
 tmux new -s name      >>  Start a named session
 tmux attach           >>  Attach to the most recent session
@@ -24,7 +24,7 @@ Ctrl+B $              >>  Rename current session
 
 ## Windows
 
-::: entries
+:::entries
 Ctrl+B c              >>  Create a new window
 Ctrl+B ,              >>  Rename current window
 Ctrl+B &              >>  Close current window
@@ -37,7 +37,7 @@ Ctrl+B f              >>  Find window by name
 
 ## Panes
 
-::: entries
+:::entries
 Ctrl+B %              >>  Split pane vertically
 Ctrl+B "              >>  Split pane horizontally
 Ctrl+B o              >>  Cycle through panes
@@ -53,7 +53,7 @@ Ctrl+B q              >>  Show pane numbers (press number to jump)
 
 ## Copy mode
 
-::: entries
+:::entries
 Ctrl+B [              >>  Enter copy mode
 Space                 >>  Begin selection (in copy mode)
 Enter                 >>  Copy selection and exit
@@ -63,7 +63,7 @@ Ctrl+B =              >>  Choose buffer to paste
 
 ## Misc
 
-::: entries
+:::entries
 Ctrl+B ?              >>  List all keybindings
 Ctrl+B :              >>  Command prompt
 Ctrl+B t              >>  Show clock

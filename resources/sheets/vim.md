@@ -10,7 +10,7 @@ Modal text editor. Most commands work in normal mode unless noted.
 
 ## Modes
 
-::: entries
+:::entries
 i                     >>  Insert before cursor
 I                     >>  Insert at start of line
 a                     >>  Append after cursor
@@ -26,7 +26,7 @@ Esc                   >>  Return to normal mode
 
 ## Motion
 
-::: entries
+:::entries
 h j k l               >>  Left, down, up, right
 w / W                 >>  Word forward (W = WORD)
 b / B                 >>  Word backward
@@ -45,7 +45,7 @@ Ctrl+b / Ctrl+f       >>  Full page up / down
 
 ## Editing
 
-::: entries
+:::entries
 x                     >>  Delete character under cursor
 dd                    >>  Delete line
 dw                    >>  Delete word
@@ -64,7 +64,7 @@ cc                    >>  Change line
 
 ## Search and replace
 
-::: entries
+:::entries
 /pattern              >>  Search forward
 ?pattern              >>  Search backward
 n / N                 >>  Next / previous match
@@ -77,7 +77,7 @@ n / N                 >>  Next / previous match
 
 ## Files and buffers
 
-::: entries
+:::entries
 :w                    >>  Save
 :w filename           >>  Save as
 :q                    >>  Quit
@@ -92,7 +92,7 @@ n / N                 >>  Next / previous match
 
 ## Windows and tabs
 
-::: entries
+:::entries
 Ctrl+w s              >>  Split horizontally
 Ctrl+w v              >>  Split vertically
 Ctrl+w h j k l        >>  Move between splits

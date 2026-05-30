@@ -10,7 +10,7 @@ Simple modeless terminal editor. `^` denotes `Ctrl`, `M-` denotes `Alt` (or `Esc
 
 ## Files
 
-::: entries
+:::entries
 Ctrl+O                >>  Write (save) file
 Ctrl+R                >>  Read (insert) file
 Ctrl+X                >>  Exit (prompts to save)
@@ -19,7 +19,7 @@ Ctrl+S                >>  Save without prompt (newer versions)
 
 ## Navigation
 
-::: entries
+:::entries
 Ctrl+A                >>  Start of line
 Ctrl+E                >>  End of line
 Ctrl+Y                >>  Page up
@@ -33,7 +33,7 @@ Alt+Space             >>  Previous word
 
 ## Editing
 
-::: entries
+:::entries
 Ctrl+K                >>  Cut current line
 Alt+6                 >>  Copy current line
 Ctrl+U                >>  Paste
@@ -46,7 +46,7 @@ Alt+3                 >>  Comment / uncomment line
 
 ## Search
 
-::: entries
+:::entries
 Ctrl+W                >>  Search forward
 Alt+W                 >>  Repeat last search
 Ctrl+\\                >>  Replace
@@ -55,7 +55,7 @@ Alt+R                 >>  Replace (alt binding)
 
 ## Misc
 
-::: entries
+:::entries
 Ctrl+G                >>  Display help
 Ctrl+C                >>  Show cursor position
 Alt+#                 >>  Toggle line numbers

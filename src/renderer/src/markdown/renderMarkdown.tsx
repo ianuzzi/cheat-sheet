@@ -6,13 +6,19 @@ import { remarkEntries } from './remarkEntries'
 
 const PLUGINS = [remarkGfm, remarkDirective, remarkEntries]
 
+// remark-directive requires `:::name` with no space after the colons. Authors
+// naturally write `::: name`, so normalize the opener before parsing.
+function normalize(md: string): string {
+  return md.replace(/^(:{3,})[ \t]+(?=\w)/gm, '$1')
+}
+
 type Props = { markdown: string }
 
 export function RenderMarkdown({ markdown }: Props): JSX.Element {
   const node = useMemo(
     () => (
       <ReactMarkdown remarkPlugins={PLUGINS} skipHtml={false}>
-        {markdown}
+        {normalize(markdown)}
       </ReactMarkdown>
     ),
     [markdown]

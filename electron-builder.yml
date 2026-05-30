@@ -26,7 +26,6 @@ win:
     - target: portable
       arch:
         - x64
-  artifactName: ${productName}-${version}-${arch}-${target}.${ext}
 nsis:
   oneClick: false
   perMachine: false
@@ -35,6 +34,7 @@ nsis:
   createStartMenuShortcut: true
   shortcutName: Cheat Sheet
   uninstallDisplayName: Cheat Sheet
+  artifactName: ${productName}-${version}-${arch}-setup.${ext}
 portable:
   artifactName: ${productName}-${version}-portable.exe
   requestExecutionLevel: user

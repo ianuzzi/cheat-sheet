@@ -10,7 +10,7 @@ A reference for common shell commands. Bracketed bits like `[file]` are placehol
 
 ## Files and directories
 
-::: entries
+:::entries
 ls -la                >>  List all files, long form, with hidden
 ls -lh                >>  Long list with human-readable sizes
 cd -                  >>  Switch to previous directory
@@ -26,7 +26,7 @@ file path             >>  Identify file type
 
 ## Searching
 
-::: entries
+:::entries
 find . -name '*.ts'   >>  Find files by name pattern
 find . -type f -mtime -1  >>  Files modified within last day
 grep -rni 'pat' .     >>  Recursive case-insensitive search
@@ -38,7 +38,7 @@ locate name           >>  Search filesystem index
 
 ## Processes
 
-::: entries
+:::entries
 ps aux                >>  List all processes
 ps -ef --forest       >>  Process tree
 top                   >>  Live process viewer
@@ -54,7 +54,7 @@ nohup cmd &           >>  Run detached, ignore hangup
 
 ## Permissions
 
-::: entries
+:::entries
 chmod +x file         >>  Add execute bit
 chmod 755 file        >>  rwxr-xr-x
 chown user:grp file   >>  Change owner and group
@@ -65,7 +65,7 @@ umask                 >>  Show default permission mask
 
 ## Disk and network
 
-::: entries
+:::entries
 df -h                 >>  Disk free, human-readable
 du -sh dir            >>  Total size of directory
 mount                 >>  Show mounted filesystems
@@ -79,7 +79,7 @@ wget url              >>  Download a file
 
 ## Archives
 
-::: entries
+:::entries
 tar -czf out.tgz dir  >>  Create gzip tarball
 tar -xzf in.tgz       >>  Extract gzip tarball
 tar -tzf in.tgz       >>  List contents
@@ -89,7 +89,7 @@ unzip in.zip          >>  Extract zip
 
 ## Misc
 
-::: entries
+:::entries
 history               >>  Shell command history
 !!                    >>  Run last command
 !$                    >>  Last argument of last command
